@@ -12,6 +12,19 @@ let x = 50
 
 ctx.fillStyle = 'pink'
 
+// (----текст----)
+// let grad = ctx.createLinearGradient(0, 0, 500, 0)
+//
+// grad.addColorStop('0', 'pink')
+// grad.addColorStop('.50', 'red')
+// grad.addColorStop('1', 'blue')
+// // ctx.textAlign = 'center'
+//
+// ctx.fillStyle = grad;
+//
+// ctx.font = '30px Roboto'
+// ctx.fillText('Hello world!', 50, 50)
+
 
 // (----круг----)
 // ctx.arc(canvas.width / 2, canvas.height / 2, 100, 0, Math.PI * 2)
